@@ -1,0 +1,87 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("miami.png");
+    border: 1px solid black;
+}
+
+
+.headerClass1{
+    font-size: 50;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.sectionClass{
+    background-color: mediumorchid;
+    border: 1px solid black;
+    color: white;
+    opacity: 0.9;
+    padding: 30px;
+    display: block;
+    float: right;
+    position: static; 
+    text-align: center;
+    width:65%;
+}
+
+nav{
+    font-size: 40;
+    color: black;
+    line-height: 100px;
+}
+
+.contactInfo{
+    color: white;
+    position: fixed;
+    
+}
+
+.asidePost{
+    float: right;
+    display: block;
+    right: 0;
+    background-color: lightcoral;
+    border: 1px solid black;
+    width: 25%;
+    padding: 30px;
+    opacity: 0.9;
+}
+
+.postDiv{
+    font-size: 120%;
+    border:2px solid darkslategray; 
+}
+
+button{
+    font-size: 20px;
+    color: white;
+    background-color: rebeccapurple;
+    padding: 20px;
+    position: fixed;
+    margin-top: 6%;
+    margin-left: 25%;
+}
+
+input[type=name], input[type=email], input[type=textarea], input[type=text], input[type=reset] {
+    padding:5px; 
+    border:2px solid darkslategray; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    align-self: center;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background: rebeccapurple;
+    color: white; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+
+footer{
+    clear: both;
+    color: white;
+}
