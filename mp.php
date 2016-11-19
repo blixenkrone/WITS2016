@@ -24,9 +24,10 @@
                     <?php
                     $usrname = $_POST["usrName"];
                     $email = $_POST["usrMail"];
-
+                    if(null !== $usrname){
                     echo "Velkommen bruger " . $usrname . " med mailen " . $email . " til siden. <br>";
                     echo "Du kan redigere dine indlæg, ved at bruge dit brugernavn " . " $usrname " . " i feltet 'Brugernavn'";
+                    }
                     ?> 
                 </h3></p>
 
@@ -53,12 +54,14 @@
                             $usrTxt = '<div class="postDiv">' . $_POST["usrName"] . " : " . $_POST["usrMsg"] . "</div>" . "<br>";
                             $txtFile = file_put_contents($_POST["usrName"] . ".txt", $usrTxt);
                         }
-
+                        
+                        if(null !== $usrTxt){
                         echo "Din besked er: ";
                         $msgPost = $_POST["usrMsg"];
                         echo ' " ' . $msgPost . ' ". ' ;
                         echo "Tak for dit indlæg, det er nu gemt!";
                         echo ' <br> Indlægget blev postet d.: ' . date('jS M Y H:i:s').'';
+                        }
                     ?>
 
             </aside>
