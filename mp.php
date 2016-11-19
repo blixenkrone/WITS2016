@@ -6,7 +6,7 @@
         <link rel="stylesheet" type="text/css" href="mp.css">
         <title> MiniProjekt </title>
     </head>
-
+    
     <body>
 
             <header align="center" class="headerClass1">
@@ -38,14 +38,8 @@
                             E-mail:     <input type="email" name="usrMail" placeholder="Indsæt e-mail" autocomplete="on" required/> <br>
                             Artikel:    <textarea rows="8" cols="50" name="usrMsg" placeholder="Indsæt artikeltekst"></textarea>
                                         <input type="reset" value="Fjern alt"/> <br>
-      
-                            <input type="submit" name="submit" value="Enter"/>
-                            
+                                        <input type="submit" name="submit" value="Enter"/> 
                     </form>
-
-
-
-
                 </div>
 
                     <?php
@@ -66,10 +60,7 @@
 
             </aside>
 
-
-            <section class="sectionClass">
-
-            
+                <section class="sectionClass">            
                 <p><h1>Her kan der læses om Miami, ud fra brugeres artikler</h1></p>
                
                 <?php
@@ -86,11 +77,8 @@
 
             </section>
 
-
             <footer style="font-size:70%" class="footerClass">
                     <p> (c) Simon Blixenkrone - WITS2016 - sikobl@ruc.dk </p> 
             </footer>
-
     </body>
-
 </html>
